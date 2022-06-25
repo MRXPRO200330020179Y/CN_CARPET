@@ -1,0 +1,29 @@
+%transition {
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+  }
+  *{
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: $link;
+    outline: none;
+  }
+  button{
+    border: none;
+    outline: none;
+  }
+ul{
+  list-style-type: none;
+}
+
+label{
+  cursor: pointer;
+}

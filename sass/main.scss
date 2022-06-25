@@ -1,0 +1,3792 @@
+@import 'files/fonts';
+@import 'files/color';
+@import 'files/mixins';
+@import 'history.scss';
+@import 'photo.scss';
+@import 'catalog.scss';
+@import 'card.scss';
+@import 'about.scss';
+@import 'nows.scss';
+@import 'news_In.scss';
+@import 'video.scss';
+@import 'numbers.scss';
+@import 'contacts.scss';
+.continir{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.slick-prev::after {
+    content: "";
+    width: 62px;
+    display: none;
+    height: 62px;
+    margin-left: -51px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../foto/right.png);
+}
+.slick-next::after {
+    display: none;
+}
+#slick-slide-control32{
+    display: none;
+}
+#slick-slide-control31{
+    display: none;
+}
+#slick-slide-control30{
+    display: none;
+}
+#slick-slide-control22{
+    display: none;
+}
+#slick-slide-control21{
+    display: none;
+}
+#slick-slide-control20{
+    display: none;
+}
+body {
+    font-family: 'Proxiima Nova';
+    color: $link;
+    font-weight: 600;
+    font-size: 16px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.slaeder__cort__max__cart__slaeder{
+    display: none;
+}
+.katolog__media__660px{
+    display: none;
+}
+/*======header-start======*/
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    &__wripper{
+        margin-top: -14px;
+        padding: 23px  170px 17px 170px;
+    }
+    &__carte1{
+        margin-left: 45px;
+       margin-top: 21px;
+    }
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_nav__email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 39px;
+        margin-top: -22px;
+        li+li{
+            margin-left: 13.47px;
+        }
+    }
+    &__nav__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgba(180, 193, 200, 4);
+        width: 28px;
+        height: 28px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        border-radius: 100px;
+        color: $link;
+        transition: 0.5s ease-in-out background-color,0.5s ease-in-out color;
+        &:focus{
+            background-color: $blue;
+            color: $fff;
+        }
+        &:hover{
+            background-color: $blue;
+            color: $fff;
+        }
+    }
+    &__carte__pod{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__boredr{
+        border-bottom: 1px solid rgba(2, 48, 71, 0.2);
+        align-items: center;
+        margin-top: 8px;
+    }
+    &__cart__tel__email{
+        display: flex;
+        margin-right: 45px;
+        img{
+            margin-right: 10px;
+            object-fit: contain;
+        }
+        a{
+            color: $link;
+            font-size: 16px;
+            line-height: 26px;
+            width: 140px;
+            font-weight: 600;
+        }
+    }
+    &__button__max{
+        margin-top: -18px;
+        border: none;
+        outline: none;
+    }
+    &__button1__max{
+        margin-top: -14px;
+    }
+    &__button1{
+        width: 160px;
+        height: 40px;
+        background: $blue;
+        border: none;
+        text-transform: uppercase;
+        margin-top: -10px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 27px;
+        font-weight: 600;
+        color: $fff;
+    }
+    &__nav__ru__uz{
+        display: flex;
+        align-items: center;
+        margin-top: -23px;
+        margin-left: -1px;
+        margin-right: 24px;
+    
+    li +li{
+        margin-left: 9px;
+      }
+    }
+    &__nav_a1ru{
+        color: #829EAC;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 15px;
+        font-weight: 600px;
+        transition:0.5s ease-in-out color,;
+        &:focus{
+            color: $blue;
+            border-bottom: 1px solid $blue;
+        }
+        &:hover{
+            color: $blue;
+            border-bottom: 1px solid $blue;
+        }
+    }
+    &__button__carte{
+        background: $green;
+        width: 142px;
+        text-transform: uppercase;
+        height: 40px;
+        margin-top: -10px;
+        border: none;
+        outline: none;
+        color: $fff;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600;
+        border: none;
+    }
+    &__menu__nav{
+    display: flex;
+    margin-top: 13px;
+    padding-left: 55px;
+   li+li{
+    margin-left: 63px;
+   }
+    }
+    &__menu__link{
+        color: $link;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+        text-transform: uppercase;
+        transition:0.4s ease-in-out color,;
+        &:focus{
+            color: $blue;
+        }
+        &:hover{
+            color: $blue;
+        }
+    }
+
+
+
+
+&__chekboxmax{
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 113px;
+}
+
+
+    &__chekbox{
+        position: fixed;
+        z-index: 9999999;
+        background: rgba(255, 255, 255, 0.85);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    &__cek__cart{
+       background-image: url(../foto/chik__logo.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 257px;
+       padding: 26px 36px;
+    }
+    &__chk__title__h3{
+        color: #17A751;
+        font-weight: 600;
+        font-size: 26px;
+        padding-top: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    &__chik__link__max{
+        max-width: 40px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    &__chek__metok__x_max{
+        position: absolute;
+        right: 170px;
+        top: 37px;
+        cursor: pointer;
+    }
+    &__cart__burger{
+        display: none;
+    }
+}
+
+
+#chik_max{
+    display: none;
+}
+
+#chik_max:checked~.header__chekbox{
+    display: block;
+    position: fixed;
+    z-index: 9999999999990;
+}
+
+
+/*======header-end======*/
+
+
+
+
+
+
+
+
+
+/*======slaeder-strat======*/
+.slaeder{
+    margin-top: -17px;
+    &__cart1{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    &__carte__pod{
+        background-color: rgba(2, 48, 71, 0.7);
+        width: 650px;
+        height: 500px;
+    }
+    &__title__h2{
+        color: $fff;
+        font-size: 48px;
+        line-height: 55px;
+        font-weight: 800;
+        max-width: 420px;
+        text-transform: uppercase;
+        padding: 170px 0 0 193px;
+    }
+    &__text__p1{
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 60px;
+        font-weight: normal;
+        padding-left: 189px;
+    }
+}
+
+/*======slaeder-end======*/
+
+
+
+
+/*======katalog start======*/
+
+.catalog{
+    margin-bottom: 20px;
+    &__menu_menu_ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    &__link__menu{
+        font-size: 14px;
+        color: $max;
+        text-transform: uppercase;
+        line-height: 17px;
+        font-weight: 600;
+        margin-top: 30px;
+        @extend%transition;
+        &:hover{
+          color: $blue;
+        }
+        &:focus{
+            color: $blue;
+        }
+    }
+}
+* {
+    color: inherit;
+    margin: 0;
+  }
+  
+  [role="tablist"] {
+    padding: 0;
+  }
+  
+  [role="tablist"] li, [role="tablist"] a {
+    display: inline-block;
+  }
+  
+
+  
+  
+ 
+  [role="tabpanel"] * + * {
+    margin-top: 0.75rem;
+  }
+  
+
+  
+ 
+  
+ 
+ .katalog{
+    &__title_h2{
+        color: $link;
+        padding-top: 71px;
+        font-size: 36px;
+        font-weight: bold;
+        max-width: 400px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 35px;
+        text-align: center;
+        &::after{
+            display: inline-flex;
+            content: "";
+            background-color: $blue;
+            width: 140px;
+            height: 3px;
+        }
+        &::before{
+         display: inline-flex;
+         content: "";
+         position: absolute;
+         margin-top: 62px;
+         margin-left: 149px;
+         background-color: $blue;
+         width: 100px;
+         opacity: 0.3;
+         height: 10px;
+     }
+    }
+    &__menu__top{
+     max-width: 433px;
+     padding-top: 29px;
+     margin: 0 auto;
+    }
+    &__nav__minu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link__minu{
+        color: $max;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 17px;
+        font-weight: 600;
+        @extend%transition;
+        &:hover{
+            color: $blue;
+        }
+        &:focus{
+            color: $blue;
+        }
+    }
+
+
+
+
+
+    &__top{
+        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 20;
+    margin-top: 19px;
+    margin-bottom: 48px;
+    align-items: center;
+}
+    &__carte__pod1{
+        background: $fff;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+        max-width: 270px;
+        position: relative;
+        margin-top: 13px;
+        z-index:-1;
+        height: 321px;
+        overflow: hidden;
+        padding: 24px 20px 23px 20px;
+        @extend%transition;
+        &:hover{
+            position: relative;
+            z-index: 999999999999999999;
+            margin-bottom: -99px;
+            max-width: 270px;
+            visibility:visible;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 40%);
+            height: 420px;
+            padding: 24px 20px 23px 20px;
+        }
+       }
+    &__title__carte__h2{
+        color: $link;
+        font-size: 18px;
+        height: 71px;
+        padding-top: 28px;
+        text-align: center;
+        padding-left: 9px;
+        max-width: 218px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    &__text__carte__p1{
+        color: $max;
+        font-size: 14px;
+        max-width: 228px;
+        line-height: 47px;
+        font-weight: 600;
+        text-align: center;
+    }
+    &__button__carte__pod{
+     background: $fff;
+     border: 1px solid $blue;
+     box-sizing: border-box;
+     width: 160px;
+     height: 40px;
+     margin-top: 8px;
+     margin-left: 35px;
+     color: $blue;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 15px;
+     text-transform: uppercase;
+    }
+    &__png__logo__carde img{
+        width: 230px;
+        height: 170px;
+        position: relative;
+       &::after{
+         display: inline-flex;
+         content: "";
+         background-color: $blue;
+         width: 80px;
+         margin-left: -156px;
+         margin-top: 183px;
+         position: absolute;
+         height: 3px;
+     }  
+    }
+
+    &__minu__vise__max{
+        max-width: 182px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    &__button__link{
+        width: 160px;
+        background-color: $blue;
+        height: 40px;
+        color: $fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 15px;
+        font-weight: 600;
+    }
+}
+
+
+
+/*======katalog end======*/
+
+.katalog__carte__pod1{
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+/*======o kampane start01======*/
+
+
+
+
+/*======O KAMPANIE START======*/
+
+
+
+
+.kampane1{
+    background-image: url(../foto/max_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1134px;
+    margin-bottom: 84px;
+    &__carte002{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__pro{
+        margin-left: 150px;
+        margin-right: 203px;
+    }
+    &__title__h2{
+        color: $fff;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 58px;
+        text-transform: uppercase;
+        padding-top: 86px;
+    }
+    &__text__p1{
+    max-width: 560px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 14px;
+    line-height: 34px;
+    color: $fff;
+    }
+    &__carte__pod{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    &__button{
+        background-color: $blue;
+        width: 160px;
+        height: 50px;
+        color: $fff;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 50px;
+    }
+    &__text__p1__pod{
+      color: $fff;
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border-bottom: 2px solid #219EBC;
+      margin-top: 6px;
+    }
+
+    &__carte__png{
+    border: 3px solid #31BFE1;
+    box-sizing: border-box;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 55px;
+    height: 400px;
+    img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+    }
+    &__top{
+        margin-top: 75px;
+    }
+}
+
+
+.nash_brent__top img{
+    width: 180px;
+    height: 90px;
+    object-fit: cover;
+}
+/*======O KAMPANIE END======*/
+
+
+
+
+
+/*======novost start======*/
+
+
+
+.novost{
+    max-width: 1440px;
+    margin: 0 auto;
+    &__pro{
+        margin-left: 150px;
+        margin-right: 170px;
+    }
+    &__title__h2{
+        color: $link;
+        font-size: 36px;
+        line-height: 37px;
+        font-weight: bold;
+        max-width: 154px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        &::after{
+            display: inline-flex;
+            content: "";
+            background-color: $blue;
+            width: 140px;
+            margin-left: 17px;
+            height: 3px;
+        }
+        &::before{
+         display: inline-flex;
+         content: "";
+         position: absolute;
+         margin-top: 66px;
+         margin-left: 37px;
+         background-color: $blue;
+         width: 100px;
+         opacity: 0.3;
+         height: 10px;
+     }
+    }
+
+    &__top{
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+    }
+
+    &__carte1{
+        width: 360px;
+    }
+    &__text__data{
+    color: $blue;
+    padding-top: 0px;
+    font-size: 14px;
+    padding-left: 11px;
+    line-height: 42px;
+    font-weight: 600;
+    }
+    &__title__h3__pod{
+        color: $link;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: -9px;
+        padding-left: 9px;
+        font-weight: 600;
+    }
+    &__text__p1__pod{
+    color: $max;
+    font-size: 16px;
+    width: 340px;
+    line-height: 19px;
+    padding-left: 9px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    }
+    &__button__pot__carte{
+        max-width: 140px;
+        margin: 0 auto;
+    }
+    &__button__link__cort{
+        background-color: $blue;
+        width: 160px;
+        height: 40px;
+        color: $fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        margin-bottom: 80px;
+        line-height: 15px;
+    }
+}
+
+.novost__carte1 img{
+    width: 360px;
+    height: 240px;
+    object-fit: cover;
+}
+
+/*======novost end======*/
+
+
+
+
+/*=======nash_brent start======*/
+
+
+
+.nash_brent{
+    position: absolute;
+    background-image: url(../foto/nash__brend.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 900px;
+    height: 400px;
+    &__pro{
+    padding-left: 150px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 150px;
+    }
+    &__title__h2{
+     text-align: center;
+    padding-top: 76px;
+    color: $fff;
+    max-width: 272px;
+    font-size: 36px;
+    margin: 0 auto;
+    line-height: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+        &::after{
+            display: inline-flex;
+            content: "";
+            background-color: #219EBC;
+            width: 140px;
+            margin-left: 3px;
+            height: 3px;
+        }
+        &::before{
+            display: inline-flex;
+            content: "";
+            position: absolute;
+            margin-top: 62px;
+            margin-left: 87px;
+            background-color: #219EBC;
+            width: 100px;
+            opacity: 0.3;
+            height: 10px;
+     }
+    }
+    &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    }
+    &__slaeder__nav{
+        margin-top: -283px;
+        margin-left: 460px;
+        position: relative;
+    }
+    &__slaeder{
+        position: absolute;
+        bottom: -408px;
+    }
+}
+
+
+
+
+.slider-max ul li{
+    margin-top: -307px;
+}
+
+.slider-max ul{
+    margin: 0 auto;
+    max-width: 278px;
+}
+
+
+/*=======nash_brent end======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======nam_doveraet start======*/
+
+
+
+ .nam__doveraet{
+     max-width: 1440px;
+     margin: 0 auto;
+     margin-top: 400px;
+     &__title__h2{
+        text-align: center;
+        padding-top: 76px;
+        color: $link;
+        max-width: 295px;
+        font-size: 36px;
+        margin: 0 auto;
+        line-height: 34px;
+        font-weight: bold;
+        text-transform: uppercase;
+            &::after{
+                display: inline-flex;
+                content: "";
+                background-color: #219EBC;
+                width: 140px;
+                margin-left: 3px;
+                height: 3px;
+            }
+            &::before{
+                display: inline-flex;
+                content: "";
+                position: absolute;
+                margin-top: 62px;
+                margin-left: 98px;
+                background-color: #219EBC;
+                width: 100px;
+                opacity: 0.3;
+                height: 10px;
+         }
+     }
+     &__top{
+         max-width: 1440px;
+         padding-left: 150px;
+         padding-right: 150px;
+     }
+ }
+
+
+
+/*======nam_doveraet end======*/
+
+
+
+/*=======footer start======*/
+
+
+
+   .footer1{
+       background-color: $link;
+       width: 100%;
+       position: absolute;
+       left: 0;
+       right: 0;
+       margin-top: 112px;
+       height: 284px;
+       &__top{
+           padding-top: 60px;
+           display: flex;
+           justify-content: space-between;
+       }
+       &__carte{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       &__title__h3__cart{
+           color: $blue;
+           font-size: 12px;
+           line-height: 64px;
+           text-transform: uppercase;
+           padding-right: 18px;
+           margin-top: -9px;
+           span{
+               color: $fff;
+               font-size: 16px;
+               padding-left: 8px;
+           }
+       }
+       &__carte__pod__max{
+           display: flex;
+           align-items: center;
+       }
+       &_nav__email{
+           display: flex;
+           align-items: center;
+           margin-top: -19px;
+           li+li{
+               margin-left: 20px;
+           }
+       }
+       &__nav__link{
+        background-color: rgba(255, 255, 255, 0.2);
+        width: 34px;
+        font-size: 21px;
+        line-height: 27px;
+        border: none;
+        color: $fff;
+        outline: none;
+        border-radius: 100px;
+        height: 34px;
+        @extend%transition;
+           &:hover{
+               background-color: $blue;
+               color: $link;
+           }
+           &:focus{
+            background-color: $blue;
+            color: $link;
+        }
+       }
+       &__carte__max__pod__email{
+        margin-left: 73px;
+        margin-top: 10px;
+       }
+       &__link__max__carte{
+        color: $fff;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 47px;
+        @extend%transition;
+        &:hover{
+            color: $blue;
+        }
+       }
+       &__carte__link__pod{
+        display: flex;
+        align-items: center;
+        margin-top: -4px;
+        margin-right: 0px;
+       }
+       &__carte__link__pod2003{
+           margin-right: 106px;
+       }
+       &__sos__grup1{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+       }
+       &__link__max__cartesos{
+           color:#90B0C0;
+           font-size: 16px;
+           line-height: 19px;
+           font-weight: normal;
+       }
+       &__sos__grup__max{
+        background-color: #022A3F;
+        width: 100%;
+        height: 68px;
+        margin-top: 48px;
+        padding-top: 26px;
+       }
+   }
+
+
+
+/*=======footer ent======*/
+
+
+
+
+
+
+
+
+
+
+
+/*======slaeder stert======*/
+
+
+.slick-dots{
+    position: absolute;
+    right: 0;
+    top: 450px;
+    bottom: 10px;
+    left: 181px;
+    z-index: 15;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    padding-left: 0;
+    list-style: none;
+}
+.slick-dots li{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(194, 179, 179, 0.4);
+    border-radius: 100%;
+    margin-right: 9px;
+    margin-left: 10px;
+    text-indent: -999px;
+}
+.slick-dots li ::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    content: "";
+}
+
+.slick-dots .slick-active {
+    background-color: #31BFE1;
+}
+
+
+#slick-slide-control01{
+    background-color: $link;
+    width: 20px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    font-size: 0px;
+    height: 20px;
+}
+#slick-slide-control02{
+    background-color: $link;
+    width: 20px;
+    font-size: 0px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    height: 20px;
+}
+#slick-slide-control03{
+    background-color: $link;
+    width: 20px;
+    font-size: 0px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    height: 20px;
+}
+#slick-slide-control00{
+    background-color: $link;
+    width: 20px;
+    font-size: 0px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    height: 20px;
+}
+
+.slaeder__corte{
+    margin-top: -0px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+
+
+/*======slaeder ent======*/
+
+
+
+
+
+
+.slider-max ul {
+    margin: 0 auto;
+    max-width: 280px;
+}
+
+
+
+/*======media-start======*/
+
+
+@media (max-width:1920px){
+    .kampane1__top {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width:1900px){
+    .kampane1__top {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width:1890px){
+    .kampane1__top {
+        margin-top: 75px;
+    }
+}
+@media (max-width:1890px){
+    .kampane1__top {
+        margin-top: 75px;
+        padding: 0 0px;
+    }
+}
+
+ @media (max-width:1415px){
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 150px 17px 150px;
+    }
+    .footer1__sos__grup1__max {
+        background-color: #022A3F;
+        width: 100%;
+        height: 70px;
+        margin-top: 48px;
+        padding-top: 0px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    .kampane1__pro {
+        margin-left: 130px;
+        margin-right: 170px;
+    }
+    .novost__pro {
+        margin-left: 130px;
+        margin-right: 150px;
+    }
+    .nash_brent__pro {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .footer1__top {
+        padding-top: 60px;
+    }
+    .footer1__sos__grup1 {
+        height: 68px;
+        margin-top: -26px;
+    }
+ }
+
+
+ @media (max-width:1360px){
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 130px 17px 130px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .slaeder__title__h2 {
+        padding: 170px 0 0 163px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 163px;
+    }
+   
+    .kampane1__pro {
+        margin-left: 110px;
+        margin-right: 140px;
+    }
+    .novost__pro {
+        margin-left: 110px;
+        margin-right: 130px;
+    }
+    .novost__carte1 img{
+        width: 330px;
+        height: 240px;
+        object-fit: cover;
+    }
+    
+    .novost__carte1 {
+        width: 330px;
+    }
+    .nash_brent__pro {
+        padding-left: 110px;
+        max-width: 1315px;
+        margin: 0 auto;
+        padding-right: 110px;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    .footer1__top {
+        padding-top: 60px;
+    }
+    .footer1__sos__grup1 {
+        height: 68px;
+        margin-top: -26px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 255px;
+    }
+   
+    .nam__doveraet__top {
+        max-width: 1315px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+ }
+
+ @media (max-width:1320px){
+    
+ }
+
+ @media (max-width:1300px){
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 100px 17px 100px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .slaeder__title__h2 {
+        padding: 170px 0 0 130px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 130px;
+    }
+    .slick-dots {
+        top: 472px;
+        bottom: 10px;
+        left: 130px;
+    }
+   
+    .kampane1__pro {
+        margin-left: 100px;
+        margin-right: 120px;
+    }
+    .novost__pro {
+        margin-left: 100px;
+        margin-right: 110px;
+    }
+    .nash_brent__pro {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .footer1__top {
+        padding-top: 60px;
+    }
+ }
+
+
+ @media (max-width:1275px){
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 80px 17px 80px;
+    }
+    .slaeder__carte__pod {
+        background-color: rgba(2, 48, 71, 0.7);
+        width: 550px;
+        height: 500px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .kampane1__pro {
+        margin-left: 90px;
+        margin-right: 100px;
+    }
+    .novost__pro {
+        margin-left: 90px;
+        margin-right: 100px;
+    }
+    .novost__carte1{
+        width: 330px;
+    }
+    .novost__carte1 img{
+        width: 330px;
+        height: 240px;
+        object-fit: cover;
+    }
+    .nash_brent__pro {
+        padding-left: 90px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-right: 90px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 199px;
+    }
+    .nam__doveraet__top {
+        max-width: 1210px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .footer1__top {
+        padding-top: 60px;
+    }
+    .footer1__sos__grup1 {
+        height: 68px;
+        margin-top: -26px;
+    }
+ }
+
+
+ @media (max-width:1220px){
+    .header__carte1 {
+        margin-left: 35px;
+        margin-top: 21px;
+    }
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 50px 17px 50px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .header__chek__metok__x_max {
+        position: absolute;
+        right: 130px;
+        top: 37px;
+        cursor: pointer;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+ }
+
+
+ @media (max-width:1200px){
+     .header__carte1{
+         display: none;
+     }
+     .header__cart__burger{
+         display: block;
+     }
+     .header__cart__burger label i{
+         font-size: 30px;
+         color: $blue;
+     }
+     #chek{
+         display: none;
+     }
+
+
+     #chek:checked~.chek__burger{
+         display: block;
+     }
+ 
+
+     .chek__burger{
+        position: fixed;
+        z-index: 9999999999999;
+        padding: 50px;
+        width: 40%;
+        right: 0px;
+        display: none;
+        top: 0px;
+        height: 100vh;
+        background-color: rgba(1,34,50, 0.85);
+     }
+     .chek__burger__max{
+         position: absolute;
+         right: 0;
+         top: 0;
+     }
+     
+     .header__menu__link {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 35px;
+        text-transform: uppercase;
+        transition: 0.4s ease-in-out color;
+    }
+    .header__button1__max {
+        position: absolute;
+        bottom: -80px;
+    }
+    .header__nav__ru__uz {
+        display: flex;
+        top: 150px;
+        right: 40px;
+        align-items: center;
+        position: absolute;
+    }
+    .header__button1{
+        display: none;
+    }
+    .header_nav__email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 38px;
+        bottom: 60px;
+        position: absolute;
+        margin-top: -169px;
+    }
+
+    .header__burger__cart__mac__pod{
+        margin-top: 95px;
+    }
+
+    .chek__burger__max{
+        display: flex;
+        margin-top: 70px;
+        position: initial;
+        margin-left: 23px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header__nav_a1ru {
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 15px;
+        font-weight: 600px;
+        transition: 0.5s ease-in-out color;
+    }
+    .header__cart__tel__email a {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 29px;
+        width: 140px;
+        font-weight: 600;
+    }
+    .header__button__carte {
+        background: #17A751;
+        width: 142px;
+        text-transform: uppercase;
+        height: 40px;
+        position: absolute;
+        margin-top: -236px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600;
+        border: none;
+    }
+
+    .header__button__max {
+        margin-top: 159px;
+        border: none;
+        position: absolute;
+        outline: none;
+    }
+    .header__cart__tel__email {
+        display: flex;
+        margin-right: 32px;
+        position: relative;
+    }
+    .headre__max__link__cik{
+        position: absolute;
+        margin-top: -4px;
+    }
+    .header__chek__metok__max{
+        position: absolute;
+        left: 77px;
+    }
+    .header__chek__metok__max label img{
+        width: 30px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 283px;
+    }
+ }
+
+
+
+ @media (max-width:1175px){
+    .novost__top {
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 283px;
+    }
+    .novost__carte1 img{
+        width: 370px;
+        height: 220px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 370px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 274px;
+    }
+    .nash_brent__pro {
+        padding-left: 90px;
+        max-width: 1006px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-right: 90px;
+    }
+    .nam__doveraet__top {
+        max-width: 1159px;
+        padding-top: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+ }
+
+@media (max-width:1179px){
+    .novost__top {
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+    }
+}
+
+ @media (max-width:1160px){
+    .kampane1__carte__png {
+        border: 3px solid #31BFE1;
+        box-sizing: border-box;
+        width: 350px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 350px;
+    }
+    .kampane1__carte__png img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .kampane1__text__p1 {
+        max-width: 500px;
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 14px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .kampane1 {
+        background-image: url(../foto/max_logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1160px;
+        margin-bottom: 84px;
+    }
+    .chek__burger {
+        width: 45%;
+    }
+    .slaeder__title__h2 {
+        padding: 170px 0 0 110px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 110px;
+    }
+    .slick-dots {
+        top: 472px;
+        bottom: 10px;
+        left: 110px;
+    }
+    .slaeder__carte__pod {
+        background-color: rgba(2, 48, 71, 0.7);
+        width: 510px;
+        height: 500px;
+    }
+ }
+
+
+ @media (max-width:1080px){
+ 
+    .kampane1__pro {
+        margin-left: 80px;
+        margin-right: 90px;
+    }
+    .novost__pro {
+        margin-left: 80px;
+        margin-right: 90px;
+    }
+    .nash_brent__pro {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+  
+    .footer1__sos__grup1 {
+        height: 68px;
+        margin-top: -26px;
+    }
+    .kampane1__text__p1 {
+        max-width: 450px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 1189px;
+        margin-bottom: 84px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 255px;
+    }
+ 
+ }
+
+
+
+ @media (max-width:990px){
+    .kampane1__carte002 {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kampane1__carte__png{
+        display: none;
+    }
+    .kampane1__text__p1 {
+        max-width: 700px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1__button {
+        background-color: $blue;
+        width: 160px;
+        height: 50px;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 100px;
+    }
+    .kampane1__carte__png {
+        border: 3px solid #219EBC;
+        box-sizing: border-box;
+        width: 700px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 400px;
+    }
+    .kampane1__carte__png img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 1095px;
+        background-size: 100% 1095px;
+        margin-bottom: 38px;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+    }
+    .novost__carte1 img{
+        width: 330px;
+        height: 240px;
+        object-fit: cover;
+    }
+.novost__carte1 {
+    width: 330px;
+}
+.footer1__carte__link__pod2003 {
+    margin-right: 60px;
+}
+
+.chek__burger {
+    width: 55%;
+}
+.slider-max ul {
+    margin: 0 auto;
+    max-width: 247px;
+}
+ }
+
+
+
+
+ @media (max-width:900px){
+    .nash_brent__pro {
+        padding-left: 90px;
+        max-width: 830px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-right: 90px;
+    }
+    .novost__button__pot__carte {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 262px;
+    }
+    .nam__doveraet__top {
+        max-width: 831px;
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .novost__top {
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .slaeder__cort__max__cart__slaeder{
+        display: block;
+        max-width: 399px;
+        margin: 0 auto;
+    }
+    .novost__top{
+        display: none;
+    }
+    .novost__carte1 img{
+        width: 380px;
+        height: 240px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 380px;
+        margin-bottom: 66px;
+    }
+    .novost__text__p1__pod {
+        width: 375px;
+    }
+   
+    .kampane1__title__h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 50px;
+    }
+    .novost__title__h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 35px;
+    }
+    .slaeder__cort__max__cart__slaeder ul{
+        max-width: 218px;
+        margin: 0 auto;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 1020px;
+        background-size: 100% 1020px;
+        margin-bottom: 30px;
+    }
+    .novost__button__link__cort {
+        font-size: 12px;
+        margin-bottom: 35px;
+        line-height: 15px;
+    }
+    .novost__title__h2::after {
+        width: 130px;
+        margin-left: 8px;
+        height: 3px;
+    }
+    .novost__title__h2::before {
+        margin-top: 53px;
+        margin-left: 23px;
+        width: 100px;
+        height: 10px;
+    }
+    .nash_brent__title__h2 {
+        max-width: 272px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .nash_brent__title__h2::after {
+        width: 140px;
+        margin-left: -2px;
+        height: 3px;
+    }
+    .nash_brent__title__h2::before {
+        margin-top: 54px;
+        margin-left: 65px;
+    }
+    .nam__doveraet__title__h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .nam__doveraet__title__h2::before {
+        margin-top: 54px;
+        margin-left: 76px;
+    }
+    .slaeder__title__h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    .footer1__top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .footer1__top {
+        padding-left: 0px;
+        padding-top: 60px;
+        max-width: 454px;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+    .footer1__sos__grup1 {
+        height: 68px;
+        margin-top: -26px;
+    }
+    .footer1__carte__link__pod {
+        margin-top: -4px;
+        margin-right: 11px;
+    }
+    .slaeder__carte__pod {
+        background-color: rgba(2, 48, 71, 0.7);
+        width: 470px;
+        height: 500px;
+    }
+    .slaeder__cart1 {
+        background-size: 900px 400px;
+        width: 100%;
+        height: 400px;
+    }
+    .slaeder__title__h2 {
+        padding: 100px  0 0 110px;
+    }
+    .slick-dots {
+        top: 360px;
+        bottom: 10px;
+        left: 110px;
+    }
+    .slider-max ul li {
+        margin-top: -212px;
+    }
+    .footer1 {
+    background-color: #023047;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 112px;
+    height: 453px;
+}
+
+ }
+
+
+
+
+ @media (max-width:820px){
+    .chek__burger {
+        width: 65%;
+    }
+    .novost__button__pot__carte {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    
+    .novost__pro {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .kampane1__top_iframe{
+        height: 400px;
+    }
+    .slaeder__cort__max__cart__slaeder ul {
+        max-width: 204px;
+        margin: 0 auto;
+    }
+    .kampane1__text__p1 {
+        max-width: 580px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1__carte__png img {
+        width: 580px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .kampane1__carte__png {
+        width: 580px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 400px;
+    }
+    .kampane1__top {
+        margin-top: 90px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 960px;
+        background-size: 100% 960px;
+        margin-bottom: 30px;
+    }
+    
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 340px;
+    }
+    .nash_brent__title__h2 {
+        padding-top: 60px;
+    }
+    .nam__doveraet__title__h2 {
+        padding-top: 17px;
+    }
+
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+ }
+
+
+
+ @media (max-width:750px){
+    .footer1__sos__grup1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 70px;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .footer1__link__max__cartesos {
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+    .slaeder__carte__pod {        
+        width: 430px;
+        height: 500px;
+    }
+   
+    .slaeder__title__h2 {
+        padding: 100px 0 0 80px;
+        font-size: 40px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 80px;
+    }
+ 
+    .slick-dots {
+        top: 360px;
+        bottom: 10px;
+        left: 80px;
+    }
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 40px 17px 40px;
+    }
+
+    .kampane1__title__h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .kampane1__text__p1 {
+        max-width: 530px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1__carte__png {
+        width: 530px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 400px;
+    }
+    .kampane1__carte__png img {
+        width: 530px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .novost__title__h2 {
+        font-size: 27px;
+        line-height: 28px;
+    }
+    .novost__title__h2::after {
+        width: 115px;
+        margin-left: 8px;
+        height: 3px;
+    }
+    .novost__title__h2::before {
+        margin-top: 50px;
+        margin-left: 23px;
+        width: 85px;
+        height: 10px;
+    }
+    .nash_brent__title__h2 {
+        max-width: 272px;
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .nash_brent__title__h2::before {
+        margin-top: 49px;
+        margin-left: 51px;
+    }
+    .nam__doveraet__title__h2 {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .nam__doveraet__title__h2::before {
+        margin-top: 49px;
+        margin-left: 63px;
+    }
+    
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 300px;
+    }
+    .nash_brent__title__h2 {
+        padding-top: 42px;
+    }
+    .nam__doveraet__title__h2 {
+        padding-top: 0px;
+    }
+    .nam__doveraet {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 360px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 1006px;
+        background-size: 100% 1006px;
+        margin-bottom: 30px;
+    }
+    .footer1__sos__grup__max {
+        width: 100%;
+        height: 70px;
+        margin-top: 48px;
+        padding-top: 26px;
+    }
+    .header__wripper {
+        margin-top: -14px;
+        padding: 16px 60px 2px 60px;
+    }
+ }
+
+
+ @media (max-width:660px){
+    .chek__burger {
+        width: 75%;
+    }
+    .katolog__media__660px{
+        display: block;
+    }
+    
+  
+    .katolog__media__660px .slider-item{
+        height: 480px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 367px;
+    }
+    .slaeder__carte__pod {
+        width: 400px;
+        height: 500px;
+    }
+    .slaeder__title__h2 {
+        padding: 100px 0 0 70px;
+        font-size: 40px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 70px;
+    }
+    .slick-dots {
+        top: 360px;
+        bottom: 10px;
+        left: 70px;
+    }
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 60px 17px 60px;
+    }
+   
+    .kampane1__text__p1 {
+        max-width: 460px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1__carte__png {
+        width: 460px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 360px;
+    }
+    .kampane1__carte__png img {
+        width: 460px;
+        height: 360px;
+        object-fit: cover;
+    }
+    .kampane1__top_iframe {
+        height: 350px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 980px;
+        background-size: 100% 980px;
+        margin-bottom: 40px;
+        margin-top: 38px;
+    }
+    .katolog__media__660px ul li{
+      margin-top: 80px;
+    }
+    .katolog__media__660px ul{
+        max-width: 326px;
+        margin: 0 auto;
+      }
+    .katolog__media__660px .slider-item{
+      display: flex;
+      margin-top: -63px;
+      position: relative;
+      z-index: 99999999999999;
+      justify-content: center;
+      align-items: center;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .nash_brent__pro {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .slider-max ul li {
+        margin-top: -222px;
+    }
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 309px;
+    }
+    .nam__doveraet {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 318px;
+    }
+    .footer1 {
+        margin-top: 81px;
+        height: 453px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 230px;
+    }   
+    .nam__doveraet__title__h2 {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }  
+    .footer1 {
+        margin-top: 90px;
+        height: 453px;
+    }  
+    .nash_brent__title__h2 {
+        padding-top: 42px;
+        margin-bottom: 20px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .header__wripper {
+        margin-top: -14px;
+        padding: 16px 60px 2px 60px;
+    }
+ }
+
+ @media (max-width:648px){
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 322px;
+    }
+    .nash_brent__pro {
+        max-width: 511px;
+        margin: 0 auto;
+    }
+    .nam__doveraet__top {
+        max-width: 511px;
+        margin: 0 auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        background-color: #219EBC;
+        width: 80px;
+        margin-left: 73px;
+        margin-top: 2px;
+        position: absolute;
+        height: 3px;
+    }
+    .katalog__carte__pod1:hover {
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -99px;
+        max-width: 245px;
+        visibility: visible;
+        height: 420px;
+        padding: 24px 13px 23px 11px;
+    }
+    .katalog__carte__pod1 {
+        background: #FFFFFF;
+        max-width: 245px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 321px;
+        overflow: hidden;
+        padding: 24px 13px 23px 11px;
+    }
+ }
+ @media (max-width: 640px){
+ .katalog__png__logo__carde img {
+     width: 231px;
+     height: 180px;
+ }
+}
+@media (max-width:590px){
+    
+    .katalog__carte__pod1 {
+        background: #FFFFFF;
+        max-width: 245px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 321px;
+        overflow: hidden;
+        padding: 24px 13px 23px 8px;
+    }
+    .katalog__carte__pod1:hover {
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -99px;
+        max-width: 245px;
+        visibility: visible;
+        height: 420px;
+        padding: 24px 13px 23px 8px;
+    }
+}
+ @media (max-width:580px){
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 20px 10px  20px;
+    }
+    .footer1__sos__grup__max {
+        width: 100%;
+        height: 83px;
+        margin-top: 80px;
+        padding-top: 26px;
+    }
+    .slaeder__cort__max__cart__slaeder ul {
+        max-width: 146px;
+        margin: 0 auto;
+    }
+    .continir {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nash_brent__title__h2 {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    .nam__doveraet__title__h2 {
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+   
+    .katolog__media__660px ul li {
+        margin-top: 116px;
+    }
+    .katolog__media__660px ul {
+        max-width: 306px;
+        margin: 0 auto;
+    }
+    .nash_brent__pro {
+        max-width: 461px;
+        margin: 0 auto;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 80px;
+    }
+    .chek__burger {
+        width: 85%;
+    }
+    .slaeder__title__h2 {
+        padding: 80px 0 0 50px;
+        font-size: 35px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 50px;
+        font-size: 16px;
+    }
+    .slick-dots {
+        top: 320px;
+        bottom: 10px;
+        left: 50px;
+    }
+    .slaeder__cart1 {
+        background-size: 900px 400px;
+        width: 100%;
+        height: 365px;
+    }
+    .slaeder__carte__pod {
+        width: 350px;
+        height: 370px;
+    }
+   
+    .kampane1__text__p1 {
+        max-width: 450px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .kampane1__button {
+        margin-right: 50px;
+    }
+    .kampane1__carte__png {
+        width: 400px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 300px;
+    }
+    .kampane1__carte__png img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .kampane1__top_iframe {
+        height: 300px;
+    }
+    .slider-max ul li {
+        margin-top: -196px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 285px;
+    }
+    .novost__title__h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .novost__title__h2::after {
+        width: 104px;
+        margin-left: 8px;
+        height: 3px;
+    }
+    .novost__title__h2::before {
+        margin-top: 38px;
+        margin-left: 21px;
+        width: 80px;
+        height: 10px;
+    }
+    .nash_brent__title__h2 {
+        max-width: 272px;
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .nash_brent__title__h2::before {
+        margin-top: 38px;
+        margin-left: 45px;
+    }
+    .nam__doveraet__title__h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .nam__doveraet__title__h2::before {
+        margin-top: 38px;
+        margin-left: 53px;
+    }
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 265px;
+    }
+    .nam__doveraet {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 290px;
+    }
+    .footer1 {
+        margin-top: 65px;
+        height: 508px;
+    }
+    .nash_brent__pro {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nam__doveraet__top {
+        max-width: 461px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .novost__pro {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .kampane1__pro {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+   
+    .header__chek__metok__x_max {
+        position: absolute;
+        right: 70px;
+        top: 37px;
+        cursor: pointer;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 940px;
+        background-size: 100% 940px;
+        margin-bottom: 40px;
+        margin-top: 38px;
+    }
+    .footer1__sos__grup1 {
+        padding: 2px 0px;
+    }
+ }
+
+
+ @media (max-width:540px){
+    .katalog__png__logo__carde img {
+        width: 200px;
+        height: 150px;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 390px;
+    }
+    .katalog__button__carte__pod {
+        background: #FFFFFF;
+        border: 1px solid #219EBC;
+        box-sizing: border-box;
+        width: 160px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 22px;
+        color: #219EBC;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .katalog__carte__pod1 {
+        max-width: 220px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 300px;
+        overflow: hidden;
+        padding: 24px 10px 23px 10px;
+    }
+    .katalog__carte__pod1:hover {
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -70px;
+        max-width: 220px;
+        visibility: visible;
+        height: 370px;
+        padding: 24px 10px 23px 10px;
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        width: 80px;
+        margin-left: -144px;
+        margin-top: 167px;
+        position: absolute;
+        height: 3px;
+    }
+    .kampane1__text__p1 {
+        max-width: 400px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 149px;
+    }
+    .kampane1__carte__png {
+        width: 350px;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-top: 55px;
+        height: 250px;
+    }
+    .slaeder__cort__max__cart__slaeder ul {
+        max-width: 136px;
+        margin: 0 auto;
+    }
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 286px;
+    }
+    .kampane1__carte__png img {
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .kampane1__top_iframe {
+        height: 250px;
+        padding-right: 0px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 900px;
+        background-size: 100% 900px;
+        margin-bottom: 49px;
+    }
+   
+    
+    .slaeder__cart1 {
+        background-size: 550px 260px;
+        width: 100%;
+        height: 262px;
+    }
+    .slaeder__title__h2 {
+        padding: 40px 0 0 45px;
+        font-size: 35px;
+    }
+    .slick-dots {
+        top: 240px;
+        bottom: 10px;
+        left: 45px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 45px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .slaeder__carte__pod {
+        width: 350px;
+        height: 260px;
+    }
+    .slider-max ul li {
+        margin-top: -115px;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        max-width: 285px;
+    }
+    .katolog__media__660px ul li {
+        margin-top: 199px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+ }
+@media (max-width:520px){
+    .chek__burger {
+        width: 100%;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .footer1__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 308px;
+        margin: 0 auto;
+    }
+    .footer1 {
+        margin-top: 65px;
+        height: 555px;
+    }
+    .footer1__carte__link__pod {
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+    .footer1__carte {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer1__link__max__cartesos {
+        font-size: 14px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+    .footer1__carte__max__pod__email {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footer1__carte__max__pod__email {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer1__carte__link__pod {
+        margin-top: -4px;
+        max-width: 450px;
+        margin-right: 11px;
+        margin: 0 auto;
+    }
+    .novost__button__link__cort {
+        font-size: 12px;
+        margin-bottom: 66px;
+        line-height: 15px;
+    }
+    .footer1 {
+        margin-top: 65px;
+        height: 555px;
+    }
+    .footer1__sos__grup__max {
+        width: 100%;
+        height: 83px;
+        margin-top: 40px;
+        padding-top: 26px;
+    }
+}
+
+@media (max-width:490px){
+    .katalog__carte__pod1:hover {
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -90px;
+        max-width: 210px;
+        visibility: visible;
+        height: 360px;
+        padding: 10px 15px 23px 15px;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 429px;
+    }
+    .katalog__carte__pod1 {
+        max-width: 210px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 270px;
+        overflow: hidden;
+        padding: 10px 15px 23px 15px;
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        width: 80px;
+        margin-left: -135px;
+        margin-top: 157px;
+        position: absolute;
+        height: 3px;
+    }
+    .katalog__title__carte__h2 {
+        color: #023047;
+        font-size: 16px;
+        height: 71px;
+        padding-top: 14px;
+        text-align: center;
+        padding-left: 9px;
+        max-width: 218px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .katalog__text__carte__p1 {
+        color: #AAB0B4;
+        font-size: 14px;
+        max-width: 228px;
+        line-height: 4px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .katalog__png__logo__carde img {
+        width: 180px;
+        height: 140px;
+    }
+    .katalog__button__carte__pod {
+        width: 160px;
+        height: 40px;
+        margin-top: 51px;
+        margin-left: 12px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+}
+
+
+@media (max-width:480px){
+   
+    .slaeder__carte__pod {
+        width: 300px;
+        height: 265px;
+    }
+    .slaeder__cart1 {
+    background-size: 500px  260px;
+    width: 100%;
+    height: 260px;
+}
+.nash_brent__pro {
+    max-width: 431px;
+    margin: 0 auto;
+}
+.nam__doveraet__top {
+    max-width: 430px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nash_brent__top img{
+    margin: 0 -5px;
+}
+.kampane1 {
+    width: 100%;
+    height: 930px;
+    background-size: 100% 930px;
+    margin-bottom: 49px;
+}
+.chek__burger__max {
+    display: flex;
+    margin-top: 71px;
+    position: initial;
+    margin-left: 23px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header__chek__metok__max {
+    position: absolute;
+    left: 72px;
+    top: 40px;
+}
+}
+@media (max-width:470px){
+    .katalog__carte__pod1 {
+        max-width: 188px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 281px;
+        overflow: hidden;
+        padding: 24px 15px 23px 15px;
+    }
+    .katalog__carte__pod1:hover {
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -69px;
+        max-width: 188px;
+        visibility: visible;
+        height: 350px;
+        padding: 24px 15px 23px 15px;
+    }
+    .katalog__png__logo__carde img {
+        width: 160px;
+        height: 120px;    
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        width: 80px;
+        margin-left: 40px;
+        margin-top: 4px;
+        position: absolute;
+        height: 3px;
+    }
+    .catalog__link__menu {
+        font-size: 14px;
+        color: #AAB0B4;
+        text-transform: uppercase;
+        line-height: 6px;
+        font-weight: 600;
+    }
+    .katalog__button__carte__pod {
+        width: 140px;
+        height: 40px;
+        margin-top: 6px;
+        margin-left: 12px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .katalog__text__carte__p1 {
+        font-size: 13px;
+        max-width: 220px;
+        line-height: 50px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .katalog__button__carte__pod {
+        width: 140px;
+        height: 40px;
+        margin-top: 13px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:450px){
+    .nash_brent__pro {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    .nash_brent__top img {
+        margin: 0px 3px;
+    }
+    .slaeder__title__h2 {
+        padding: 45px 0 0 40px;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 40px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .slick-dots {
+        top: 229px;
+        bottom: 10px;
+        left: 40px;
+    }
+   
+    .kampane1__title__h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .kampane1__text__p1 {
+        max-width: 360px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .kampane1__carte__png {
+        width: 300px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 55px;
+        margin-left: -13px;
+        height: 200px;
+    }
+    .kampane1__carte__png img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .kampane1__top {
+        margin-top: 75px;
+    }
+    .kampane1__top_iframe {
+        height: 210px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 800px;
+        background-size: 100% 800px;
+        margin-bottom: 49px;
+    }
+    .novost__title__h2 {
+        font-size: 22px;
+        line-height: 18px;
+        max-width: 109px;
+    }
+
+    .novost__title__h2::after {
+        width: 91px;
+        margin-left: 8px;
+        height: 3px;
+    }
+    .novost__title__h2::before {
+        margin-top: 33px;
+        margin-left: 19px;
+        width: 70px;
+        height: 10px;
+    }
+    .novost__carte1 img{
+        width: 370px;
+        height: 220px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 370px;
+    }
+    .novost__text__p1__pod {
+        width: 350px;
+    }
+    .nash_brent__title__h2 {
+        max-width: 200px;
+        font-size: 22px;
+        line-height: 18px;
+    }
+    .nash_brent__title__h2::before {
+        margin-top: 33px;
+        margin-left: 32px;
+    }
+    .nam__doveraet__title__h2 {
+        font-size: 22px;
+        line-height: 18px;
+    }
+    .nam__doveraet__title__h2::before {
+        margin-top: 33px;
+        margin-left: 42px;
+    }
+    .footer1__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 308px;
+        margin: 0 auto;
+    }
+    .footer1 {
+        margin-top: 65px;
+        height: 555px;
+    }
+    .footer1__carte__link__pod {
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+    .footer1__carte {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer1__link__max__cartesos {
+        font-size: 14px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+    .footer1__carte__max__pod__email {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footer1__carte__max__pod__email {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer1__carte__link__pod {
+        margin-top: -4px;
+        max-width: 450px;
+        margin-right: 11px;
+        margin: 0 auto;
+    }
+    .footer1 {
+        margin-top: 65px;
+        height: 555px;
+    }
+    .footer1__sos__grup__max {
+        width: 100%;
+        height: 83px;
+        margin-top: 40px;
+        padding-top: 26px;
+    }
+    .novost__button__link__cort {
+        margin-bottom: 60px;
+        line-height: 15px;
+    }
+    .slider-max ul li {
+        margin-top: -105px;
+    }
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 260px;
+    }
+    .footer1__title__h3__cart {
+        font-size: 12px;
+        line-height: 64px;
+        text-transform: uppercase;
+        padding-right: 4px;
+        margin-top: -9px;
+    }
+    .nam__doveraet {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 277px;
+    }
+    .nam__doveraet__top {
+        max-width: 1440px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .nash_brent__pro {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+    .kampane1__button {
+        margin-right: 30px;
+    }
+    .chek__burger__max {
+        display: flex;
+        margin-top: 71px;
+        position: initial;
+        margin-left: 23px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .katolog__media__660px ul li {
+        margin-top: 210px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 125px;
+    }
+}
+
+@media (max-width:430px){
+    .continir {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .katalog__png__logo__carde img {
+        width: 140px;
+        height: 100px;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 339px;
+    }
+    .katalog__carte__pod1 {
+        max-width: 160px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 230px;
+        overflow: hidden;
+        padding: 6px 10px 23px 10px;
+    }
+    .katalog__carte__pod1:hover{
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -60px;
+        max-width: 160px;
+        visibility:visible;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 40%);
+        height: 290px;
+        padding: 6px 10px 23px 10px;
+    }
+    .katalog__title__carte__h2 {
+        color: #023047;
+        font-size: 12px;
+        height: 71px;
+        padding-top: 25px;
+        text-align: center;
+        padding-left: 2px;
+        max-width: 218px;
+        line-height: 17px;
+        font-weight: 600;
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        width: 80px;
+        margin-left: -108px;
+        margin-top: 120px;
+        position: absolute;
+        height: 3px;
+    }
+    .katalog__text__carte__p1 {
+        color: #AAB0B4;
+        font-size: 13px;
+        max-width: 220px;
+        line-height: 23px;
+        font-weight: 600;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .katalog__button__carte__pod {
+        width: 121px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 339px;
+    }
+    .catalog__link__menu {
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 6px;
+        font-weight: 600;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 127px;
+    }
+}
+
+@media (max-width:400px){
+    .header__logo__svg img {
+        width: 220px;
+        object-fit: cover;
+    }
+    .chek__burger__max {
+        display: flex;
+        margin-top: 45px;
+        position: initial;
+        margin-left: -7px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .nash_brent__top img {
+        margin: 0px 3px;
+        width: 150px;
+        object-fit: cover;
+        height: 80px;
+    }
+    .slaeder__cart1 {
+    background-size: 480px 250px;
+    width: 100%;
+    height: 250px;
+}
+.slick-dots {
+    top: 218px;
+    bottom: 10px;
+    left: 40px;
+}
+.kampane1__text__p1 {
+    max-width: 300px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.kampane1__carte__png {
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 55px;
+    margin-left: -13px;
+    height: 180px;
+}
+.nash_brent__pro {
+    max-width: 360px;
+    margin: 0 auto;
+}
+.kampane1__carte__png img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+}
+.novost__carte1 img{
+    width: 340px;
+    height: 240px;
+    object-fit: cover;
+}
+.novost__carte1 {
+    max-width: 340px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.novost__text__p1__pod {
+    width: 340px;
+}
+.novost__button__pot__carte {
+    max-width: 165px;
+    margin: 0 auto;
+}
+.slider-max ul li {
+    margin-top: -103px;
+}
+.nam__doveraet__top {
+    max-width: 371px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.slaeder__cort__max__cart__slaeder ul li {
+    margin-top: 151px;
+}
+.slaeder__carte__pod {
+    width: 264px;
+    height: 251px;
+}
+.footer1 {
+    margin-top: 86px;
+    height: 555px;
+}
+.kampane1 {
+    width: 100%;
+    height: 852px;
+    background-size: 100% 852px;
+    margin-bottom: 49px;
+}
+.footer1__sos__grup1 {
+    padding: 0px 0px;
+}
+}
+
+
+
+@media (max-width:390px){
+    .footer1__link__max__cartesos {
+        font-size: 12px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+    .katolog__media__660px ul li {
+        margin-top: 219px;
+    }
+    .kampane1__text__p1__pod {
+        font-size: 11px;
+    }
+    .kampane1__carte__pod {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .novost__carte1 img {
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 320px;
+    }
+    .novost__text__p1__pod {
+        width: 320px;
+    }
+     .kampane1 {
+        width: 100%;
+        height: 870px;
+        background-size: 100% 870px;
+        margin-bottom: 49px;
+    }
+    
+    
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 103px;
+    }
+    .chek__burger__max {
+        display: flex;
+        margin-top: 71px;
+        position: initial;
+        margin-left: 23px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 115px;
+    }
+}
+
+
+@media (max-width:360px){
+    .katalog__png__logo__carde img {
+        width: 122px;
+        height: 80px;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 280px;
+    }
+    .katalog__title__carte__h2 {
+        color: #023047;
+        font-size: 11px;
+        height: 71px;
+        padding-top: 14px;
+        text-align: center;
+        padding-left: 3px;
+        max-width: 218px;
+        line-height: 17px;
+        font-weight: 600;
+    }
+    .katalog__carte__pod1 {
+        max-width: 140px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 230px;
+        overflow: hidden;
+        padding: 6px 10px 23px 10px;
+    }
+    .katalog__text__carte__p1 {
+        color: #AAB0B4;
+        font-size: 11px;
+        max-width: 220px;
+        line-height: 18px;
+        font-weight: 600;
+        margin-top: -18px;
+        text-align: center;
+    }
+    .katalog__carte__pod1 {
+        max-width: 140px;
+        position: relative;
+        margin-top: 13px;
+        z-index: -1;
+        height: 190px;
+        overflow: hidden;
+        padding: 6px 10px 23px 10px;
+    }
+    .katalog__carte__pod1:hover{
+        position: relative;
+        z-index: 999999999999999999;
+        margin-bottom: -50px;
+        max-width: 140px;
+        visibility:visible;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 40%);
+        height: 240px;
+        padding: 6px 10px 23px 10px;
+    }
+    .katalog__button__carte__pod {
+        width: 101px;
+        height: 32px;
+        margin-top: 25px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .katalog__png__logo__carde::after {
+        display: inline-flex;
+        content: "";
+        width: 80px;
+        margin-left: 21px;
+        margin-top: -3px;
+        position: absolute;
+        height: 3px;
+    }
+    .catalog__menu_menu_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 280px;
+    }
+    .catalog__link__menu {
+        font-size: 10px;
+        text-transform: uppercase;
+        line-height: 6px;
+        font-weight: 600;
+    }
+    .novost__carte1 img {
+        width: 300px;
+        object-fit: cover;
+        height: 190px;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 156px;
+    }
+    .novost__carte1 {
+        width: 300px;
+    }
+    .novost__text__p1__pod {
+        width: 260px;
+    }
+    .kampane1__carte__png img {
+        width: 270px;
+        height: 170px;
+        object-fit: cover;
+    }
+    .kampane1__carte__png {
+        width: 270px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 55px;
+        margin-left: -13px;
+        height: 170px;
+    }
+   
+    
+    .header__logo__svg img {
+        width: 180px;
+        object-fit: cover;
+    }
+    .slaeder__cart1 {
+        background-size: 480px 250px;
+        width: 100%;
+        height: 196px;
+    }
+    .slaeder__title__h2 {
+        padding: 26px 0 0 40px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .slick-dots {
+        top: 169px;
+        bottom: 10px;
+        left: 40px;
+    }
+    .slaeder__carte__pod {
+        width: 241px;
+        height: 200px;
+    }
+  
+    .slider-max ul li {
+        margin-top: -65px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 20px;
+    }
+    .nash_brent__pro {
+        max-width: 312px;
+        margin: 0 auto;
+    }
+    .kampane1__text__p1__pod {
+        margin-top: 16px;
+    }
+    .nam__doveraet__top {
+        max-width: 312px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .chek__burger__max {
+        display: flex;
+        margin-top: 70px;
+        position: initial;
+        margin-left: -7px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 161px;
+    }
+    .slider-max ul li {
+        margin-top: -49px;
+    }
+}
+
+@media (max-width:340px){
+    .kampane1__carte__png img {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 167px;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .chek__burger__max {
+        display: flex;
+        margin-top: 70px;
+        position: initial;
+        margin-left: -7px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kampane1__carte__png {
+        width: 250px;
+        padding-left: 15px;
+        padding-top: 15px;
+        margin-top: 55px;
+        margin-left: -13px;
+        height: 150px;
+    }
+    .nash_brent__pro {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+    .slider-max ul {
+        margin: 0 auto;
+        margin-left: -20px;
+        max-width: 285px;
+    }
+    .kampane1__top_iframe {
+        height: 182px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 900px;
+        background-size: 100% 900px;
+        margin-bottom: 49px;
+    }
+    .novost__carte1 img {
+        width: 280px;
+        height: 175px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 280px;
+    }
+    .novost__text__p1__pod {
+        width: 280px;
+    }
+  
+   
+    
+    .nam__doveraet__top {
+        max-width: 350px;
+    }
+   
+    .kampane1__text__p1__pod {
+        margin-top: 16px;
+    }
+    .nash_brent__top img {
+        margin: 0px 3px;
+        width: 133px;
+        height: 65px;
+    }
+    .novost__text__p1__pod {
+        width: 240px;
+    }
+    .novost__title__h3__pod {
+        width: 193px;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+}
+
+
+@media (max-width:320px){
+    .novost__carte1 img {
+        width: 270px;
+        object-fit: cover;
+    }
+    .novost__carte1 {
+        width: 270px;
+    }
+    .novost__text__p1__pod {
+        width: 200px;
+    }
+    .header__chek__metok__max {
+        position: absolute;
+        left: 44px;
+        top: 30px;
+    }
+    .katolog__media__660px ul li {
+        margin-top: 260px;
+        margin-left: 6px;
+    }
+    
+    .chek__burger__max {
+        display: flex;
+        margin-top: 70px;
+        position: initial;
+        margin-left: -7px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nash_brent__title__h2 {
+        padding-top: 31px;
+    }
+    .nash_brent {
+        width: 100%;
+        margin-bottom: 900px;
+        height: 246px;
+    }
+    .slaeder__cort__max__cart__slaeder ul {
+        max-width: 141px;
+        margin: 0 auto;
+    }
+    .slaeder__cort__max__cart__slaeder ul li {
+        margin-top: 179px;
+    }
+    .nam__doveraet {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 248px;
+    }
+    .footer1__link__max__cartesos {
+        font-size: 11px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 1185px;
+        background-size: 100% 1185px;
+        margin-bottom: 49px;
+    }
+    .kampane1__title__h2 {
+        padding-top: 52px;
+    }
+    .kampane1 {
+        width: 100%;
+        height: 814px;
+        background-size: 100% 960px;
+        margin-bottom: 49px;
+    }
+    .continir {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+   
+    .header__wripper {
+        margin-top: -14px;
+        padding: 23px 25px 17px 25px;
+    }
+    .kampane1__text__p1__pod {
+        margin-top: 16px;
+    }
+    .slaeder__title__h2 {
+        padding: 26px 0 0 35px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .slaeder__text__p1 {
+        padding-left: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .slider-max ul {
+        margin: 0 auto;
+        margin-left: -27px;
+        max-width: 285px;
+    }
+    .nash_brent__top img {
+        margin: 0px 0px;
+        width: 118px;
+    }
+    .nam__doveraet__top {
+        max-width: 284px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nash_brent__pro {
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    .footer1__sos__grup1 {
+        padding: 0px 0px;
+    }
+}
+/*======media-end======*/

@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Proxiima Nova';
+  src: url("../fontis/FontsFree-Net-proxima_nova_bold-webfont") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Proxiima Nova';
+  src: url("../fonts/FontsFree-Net-Proxima-Nova-Sbold") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Proxiima Nova';
+  src: url("../fonts/FontsFree-Net-Proxima-Nova-Xbold") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Proxiima Nova';
+  src: url("../fonts/FontsFree-Net-pr2") format("truetype");
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Proxiima Nova';
+  color: #023047;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #023047;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Proxiima Nova';
+  color: #023047;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header__wripper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12px 170px 17px 170px;
+}
+
+.header__carte1 {
+  position: absolute;
+  top: 21px;
+  left: 492px;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_nav__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 39px;
+}
+
+.header_nav__email li + li {
+  margin-left: 13.47px;
+}
+
+.header__nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  background-color: #b4c1c8;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  border-radius: 100px;
+  color: #023047;
+}
+
+.header__carte__pod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__boredr {
+  border-bottom: 1px solid rgba(2, 48, 71, 0.2);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 14px;
+}
+
+.header__cart__tel__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 45px;
+}
+
+.header__cart__tel__email img {
+  margin-right: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header__cart__tel__email a {
+  color: #023047;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.header__button__max {
+  margin-top: -8px;
+}
+
+.header__button1 {
+  width: 160px;
+  height: 40px;
+  background: #219EBC;
+  border: none;
+  margin-top: -5px;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 27px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.header__nav__ru__uz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 24px;
+  margin-top: -12px;
+}
+
+.header__nav__ru__uz li + li {
+  margin-left: 9px;
+}
+
+.header__nav_a1ru {
+  color: #829EAC;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 15px;
+  font-weight: 600px;
+}
+
+.header__button__carte {
+  background: #17A751;
+  width: 142px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.header__menu__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+.header__menu__nav li + li {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=main.css.map */
